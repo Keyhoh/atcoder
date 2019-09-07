@@ -2,9 +2,9 @@ import copy
 import random
 import time
 
-from sort.my import bubble
-from sort.my import heap
-from sort.my import insertion
+from my.sort import bubble
+from my.sort import heap
+from my.sort import insertion
 
 
 def measure(name: str, sort: callable, size: int):
