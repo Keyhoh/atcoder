@@ -5,6 +5,7 @@ import time
 from my.sort import bubble
 from my.sort import heap
 from my.sort import insertion
+from my.sort import merge
 
 
 def measure(name: str, sort: callable, size: int):
@@ -20,3 +21,4 @@ def measure(name: str, sort: callable, size: int):
 measure('bubble', bubble.sort, 10 ** 4)
 measure('insertion', insertion.sort, 10 ** 4)
 measure('heap', heap.sort, 10 ** 4)
+measure('merge', merge.sort, 10 ** 4)
